@@ -46,7 +46,7 @@ const Hero = () => {
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
             <a
-              href=""
+              href="https://www.linkedin.com/in/nurarishaumaira/"
               className=" bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-pink-500"
             >
               <span> Hire Me</span>
@@ -68,33 +68,27 @@ const Hero = () => {
               className=" flex gap-5"
             >
               <li>
-                <a href="">
+                <a href="https://github.com/ArishaUmaira">
                   {" "}
                   <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />{" "}
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="https://www.linkedin.com/in/nurarishaumaira/">
                   {" "}
                   <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 " />{" "}
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="https://www.instagram.com/arisha.umaira/">
                   {" "}
                   <AiFillInstagram className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="https://www.facebook.com/people/Arisha-Umaira/pfbid02ndr2Db5Y7xi9BvkdVD1dq2VV4vLzxEdchXhb5GLkVpQZUG2SaF1rUybERMPnVYgKl/">
                   {" "}
                   <FaFacebook className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  {" "}
-                  <AiFillTwitterCircle className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
             </ul>
