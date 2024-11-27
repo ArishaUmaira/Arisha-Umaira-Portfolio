@@ -103,7 +103,7 @@ const Hero = () => {
         <div className="right  top-5 flex-1 flex items-center justify-center md:items-end sm:items-end">
         <img
         data-aos="fade-up"
-        className="h-[90%] w-[90%] max-w-[300px] max-h-[300px] object-contain m-auto shadow-lg"
+        className="h-[90%] w-[90%] max-w-[400px] max-h-[400px] object-contain m-auto shadow-lg"
         style={{ boxShadow: '0 10px 20px rgba(255, 192, 203, 0.5)' }} // Light pink shadow
         src={heroImage} // Use your local image here
         alt="Hero"
