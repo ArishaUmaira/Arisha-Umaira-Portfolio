@@ -9,6 +9,8 @@ import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import resumePDF from "../../assets/Resume.pdf";
+import heroImage from "../../assets/images/hero-image/hero-image.png";
+
 
 
 const Hero = () => {
@@ -99,6 +101,14 @@ const Hero = () => {
           </div>
         </div>
         <div className="right  top-5 flex-1 flex items-center justify-center md:items-end sm:items-end">
+        <img
+        data-aos="fade-up"
+        className="h-[90%] w-[90%] max-w-[300px] max-h-[300px] object-contain m-auto shadow-lg"
+        style={{ boxShadow: '0 10px 20px rgba(255, 192, 203, 0.5)' }} // Light pink shadow
+        src={heroImage} // Use your local image here
+        alt="Hero"
+      />
+
           <div className="relative h-[88%] w-fit flex items-center sm:items-end">
             <div className=" absolute bottom-10 md:bottom-3 right-8 md:right-2">
               <div data-aos="zoom-in" data-aos-duration="1000"  className=" relative cursor-pointer">
