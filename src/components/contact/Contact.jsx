@@ -35,7 +35,7 @@ const Contact = () => {
               
               className= " text-pink-500 font-extrabold text-3xl p-2 rounded-lg shadow-[0_0_10px_1px_rgba(0,0,0,0.1)] "
             >
-              <BsArrowRight className=" md:rotate-90" />
+              <BsArrowRight className=" md:rotate-100" />
             </button>
           </div>
         </div>
